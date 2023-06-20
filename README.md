@@ -60,13 +60,3 @@ Projeyi geliştirici modun da başlatmak için<br>
 `pnpm dev`
 
 
-#### **Istek Noktaları;**
-
-- Categories
-  - Create [POST] `{url}/api/categories` 
-    - BODY JSON ( title:string,visibility:bolean ) 
-  - Show [GET] `{url}/api/categories/{id}`
-  - Index [GET] `{url}/api/categories/`
-    - Parametre ( filter[title] = "$like:%{TITLE}%") 
-
-
